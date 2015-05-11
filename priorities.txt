@@ -1,0 +1,15 @@
+1. Simple - easy to navigae UI
+  a. low clutter, mostly text
+  b. use multiple choice questions
+  c. few screens to pick from, with buttons to navigate
+2. Organized - every element in its place
+  a. divide into subjects
+3. Permits mistakes
+  a. can retake or reanswer
+4. Relevant - nothing unnecessary
+  a. shows magnet classes
+5. Time budgeting
+  a. can pick courses and fill in semester schedule
+6. Creativity - freedom to use app
+  a. can tag
+  c. can add/make themes
