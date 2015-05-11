@@ -12,4 +12,4 @@
   a. can pick courses and fill in semester schedule
 6. Creativity - freedom to use app
   a. can tag
-  c. can add/make themes
+  b. can add/make themes
