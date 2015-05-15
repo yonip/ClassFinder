@@ -1,6 +1,6 @@
 1. Simple - easy to navigae UI
   a. low clutter, mostly text
-  b. use multiple choice questions
+  b. use text fields and drop-down menus
   c. few screens to pick from, with buttons to navigate
 2. Organized - every element in its place
   a. divide into subjects
