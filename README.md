@@ -25,10 +25,13 @@ This application will provide a selection of courses to indecisive magnet studen
     a. open source, can help with making/fixing app
 
 #Storyboard
-A1: This activity will be launched when the application opens. The user enters their grade, their main interest (they have an option to add up to 5 interests), and select their previous courses (B1), courses that they want to eventually take (C1), and then hit "Begin" which goes to (D1).
 
-B1:
+A1: This scrollable activity will be launched when the application opens. The user enters their grade, their main interest (they have an option to add up to 5 interests). At the bottom there is a floating "begin" button which leads to B1.
 
-C1:
+B1: Previously selected courses, previous courses already filled in and greyed out, then any electives are activated buttons, that when pressed, bring up a pop up (B1p). Once filled in, this view will also allow to star classes, and a "continue" button at the bottom leading to C1.
 
-D1:
+C1: Lets the user pick desired courses in the future, not neccesarily for the next year, using a similar principal to B1's method of picking courses via popup. At the bottom, a "continue" button leads to E1
+
+D1: Blank sheet.
+
+E1: Final screen that similar to B1, where requirements are already filled in, and electives can be selected via popup, similar to B1p, except this popup is sorted by "suggested courses" and gives an explanation as to why the user might want to pick the course.
