@@ -1,5 +1,6 @@
 # ClassFinder
-This application will provide a selection of classes to indecisive magnet students in order to help them choose courses, along with a description of courses and which courses they should take based on the student
+This application will provide a selection of courses to indecisive magnet students in order to help them choose courses, along with a description of courses and which courses they should take based on the student
+
 #Priorities
 1. Simple - easy to navigae UI
     a. low clutter, mostly text
@@ -15,13 +16,11 @@ This application will provide a selection of classes to indecisive magnet studen
     c. final button to advance to next part of selector after selections have been made
 4. Relevant - nothing unnecessary, streamline operations
     a. emphasize magnet/ap/honors classes
-    b. only show course offerings that they are eligible for
+    b. discourage courses that need prerequesets, but still allow it
+    c. show information as to why to pick a course
 5. Time budgeting - streamline operation
     a. can pick courses and fill in semester schedule
     b. requirements filled in
-6. Creativity - freedom to use app, because people like being able to do things
-    a. can tag
-    b. can add/make themes
 7. Versatility
     a. open source, can help with making/fixing app
 
