@@ -1,7 +1,0 @@
-A1: This activity will be launched when the application opens. The user enters their grade, their main interest (they have an option to add up to 5 interests), and select their previous courses (B1), courses that they want to eventually take (C1), and then hit "Begin" which goes to (D1).
-
-B1:
-
-C1:
-
-D1:
