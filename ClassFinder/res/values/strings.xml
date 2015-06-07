@@ -5,9 +5,13 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_profile_creator">ProfileCreator</string>
     <string name="dummy_button">Dummy Button</string>
+    <string name="continue_button">Continue »</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="description">Create your profile below:</string>
     <string name="title_activity_select_previous">SelectPrevious</string>
     <string name="hello_world">Hello world!</string>
+    <!-- here are the descriptions for drop down menus -->
+    <string name="dd_grade_title">Grade</string>
+    <string name="dd_temp_title">Temp</string>
 
 </resources>
