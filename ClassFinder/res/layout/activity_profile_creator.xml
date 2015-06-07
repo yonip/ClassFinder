@@ -26,18 +26,50 @@
             android:orientation="vertical">
             <View
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="10dp"
             />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="30dp"
                 android:text="@string/description"
                 />
-            <Button 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Press me!"
-            	/>
+                android:textSize="20dp"
+                android:text="@string/dd_grade_title"
+                />
+            <Spinner
+                android:id="@+id/spinner_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner_grades_arr"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/dd_temp_title"
+                />
+            <Spinner
+                android:id="@+id/spinner_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner_grades_arr"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
         </LinearLayout>
 	</ScrollView>
 
@@ -61,12 +93,12 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent" >
             <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
+                android:id="@+id/continue_button"
+                style="?metaButtonBarStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="@string/continue_button" />
         </LinearLayout>
     </FrameLayout>
 
