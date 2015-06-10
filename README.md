@@ -26,12 +26,14 @@ This application will provide a selection of courses to indecisive magnet studen
 
 #Storyboard
 
-A1: This scrollable activity will be launched when the application opens. The user enters their grade, their main interest (they have an option to add up to 5 interests). At the bottom there is a floating "begin" button which leads to B1.
+A1: This scrollable activity will be launched when the application opens. The user enters their grade, their main interest (they have an option to add up to 5 interests) into a list of drop down menus (**organization**) that do not lock (**safety**). At the bottom there is a floating "begin" button which leads to B1 (**organization**).
 
-B1: Previously completed courses, already filled in and greyed out, then any electives are active buttons, that when pressed, bring up a pop up (B1p). Once filled in, this view will also allow to star classes, and a "continue" button at the bottom leading to C1.
+B1: Previously completed courses, already filled in and greyed out (**guidance**), then any electives are active buttons, that when pressed, bring up a pop up (B1p). Once filled in, this view will also allow to star classes (**flexibility**), and a "continue" button at the bottom leading to C1.
 
-C1: Lets the user pick desired courses in the future, not neccesarily for the next year, using a similar principal to B1's method of picking courses via popup. At the bottom, a "continue" button leads to E1
+C1: Lets the user pick desired courses in the future (**flexibility**), not neccesarily for the next year, using a similar principal to B1's method of picking courses via popup. At the bottom, a "continue" button leads to E1
 
 D1: Blank sheet.
 
 E1: Final screen that similar to B1, where requirements are already filled in, and electives can be selected via popup, similar to B1p, except this popup is sorted by "suggested courses" and gives an explanation as to why the user might want to pick the course.
+
+The android "back" button will be move back to the previous screen at any moment (**safety**)
