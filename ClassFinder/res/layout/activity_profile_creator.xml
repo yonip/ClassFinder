@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#000000"
     tools:context="com.baech.ProfileCreator" >
 
     <!--
@@ -15,63 +15,63 @@
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
         android:gravity="center"
         android:keepScreenOn="true"
         android:textColor="#33b5e5"
         android:textSize="50sp"
-        android:textStyle="bold">
+        android:textStyle="bold" >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-            />
+            android:orientation="vertical" >
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
                 android:text="@string/description"
-                />
+                android:textSize="30dp" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                />
+                android:layout_height="10dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
                 android:text="@string/dd_grade_title"
-                />
+                android:textSize="20dp" />
+
             <Spinner
                 android:id="@+id/spinner_grade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:entries="@array/spinner_grades_arr"
-                />
+                android:entries="@array/spinner_grades_arr" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                />
+                android:layout_height="10dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:text="@string/dd_temp_title"
-                />
+                android:text="@string/dd_preference_title"
+                android:textSize="20dp" />
+
             <Spinner
-                android:id="@+id/spinner_temp"
+                android:id="@+id/spinner_preference"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:entries="@array/spinner_grades_arr"
-                />
+                android:entries="@array/spinner_preference_arr" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
-                />
+                android:layout_height="10dp" />
         </LinearLayout>
-	</ScrollView>
+    </ScrollView>
 
     <!--
          This FrameLayout insets its children based on system windows using
@@ -92,6 +92,7 @@
             android:background="@color/black_overlay"
             android:orientation="horizontal"
             tools:ignore="UselessParent" >
+
             <Button
                 android:id="@+id/continue_button"
                 style="?metaButtonBarStyle"

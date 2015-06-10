@@ -8,10 +8,21 @@
     <string name="continue_button">Continue »</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="description">Create your profile below:</string>
+    <string name="description_end">Here are your classes:</string>
     <string name="title_activity_select_previous">SelectPrevious</string>
     <string name="hello_world">Hello world!</string>
     <!-- here are the descriptions for drop down menus -->
     <string name="dd_grade_title">Grade</string>
+    <string name="dd_preference_title">Preference</string>
     <string name="dd_temp_title">Temp</string>
+    
+    <string name="end_opt1">AP NSL</string>
+    <string name="end_opt2">Hon English 10</string>
+    <string name="end_opt3">Music Theory</string>
+    <string name="end_opt4">ADSB</string>
+    <string name="end_opt5">AoA</string>
+    <string name="end_opt6">Spanish</string>
+    <string name="end_opt7">2D Graphics</string>
+    <string name="end_opt8">Biology</string>
 
 </resources>

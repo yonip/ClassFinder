@@ -6,5 +6,12 @@
         <item>Sophomore</item>
         <item>Junior</item>
     </string-array>
+    <string-array name="spinner_preference_arr">
+        <item>Compsci</item>
+        <item>Bio</item>
+        <item>Chem</item>
+        <item>Math</item>
+        <item>Humanities</item>
+    </string-array>
 
 </resources>
